@@ -9,11 +9,12 @@ arr = set(map(int, sys.stdin.readline().split(" ")))
 x = int(sys.stdin.readline())
 
 count = 0
-arr1 = arr[:len(arr)/2]
-for ai in arr1 :
+
+for ai in arr:
     aj = x- ai
     if aj in arr:
         count += 1
         # arr.remove(aj)
 
-print(count)
+print(int(count/2))
+

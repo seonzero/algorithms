@@ -10,8 +10,6 @@ total = a*b*c
 #아까 알파벳개수랑 비슷하게 접근하는데 대신 total을 int가 아니라 str로 변환해서 보면 될듯
 s_total = str(total)
 
-print(s_total)
-
 nums = [0] * 10
 
 for x in s_total:
