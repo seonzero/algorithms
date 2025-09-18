@@ -11,6 +11,10 @@ n = int(input())
 for _ in range(n):
     s1, s2 = map(str, input().split())
 
+    if len(s1) != len(s2):
+        print("Impossible")
+        continue
+    
     alpha1 = [0] * 26
     alpha2 = [0] * 26
     # print(f'alpha1: {alpha1}')
