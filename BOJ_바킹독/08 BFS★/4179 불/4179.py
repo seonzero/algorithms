@@ -49,7 +49,7 @@ while queue:
                 queue.append( (nx, ny, 'J') )
 
         #가장자리 도달 - 탈출
-        elif nx==r or nx == -1 or ny == c or ny == -1:
+        elif nx==r or nx == -1 or ny == c or ny == -1: ###여기 제대로 조건안걸었는데 못봄
             print(max)
             break
 
