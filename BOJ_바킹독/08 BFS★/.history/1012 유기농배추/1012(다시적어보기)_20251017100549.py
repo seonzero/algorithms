@@ -14,22 +14,22 @@ def bfs(i, j):
             #범위 벗어나면 out
             if nx<0 or nx>=n or ny<0 or ny>=m:
                 continue
-
+            
             if matrix[nx][ny]==1:
                 queue.append( (nx, ny) )
-                matrix[nx][ny] = 0 #방문표시
+                matrix[nx][ny] == 0 #방문표시
 
 
 for test_case in range(t):
     m,n,k=map(int, input().split())
     #배추밭만들기
     matrix = [ [0]*m for _ in range(n)]
-    # print(matrix)
+    print(matrix)
 
     #배추좌표 받아서 밭에 표시하기
     for _ in range(k):
         y,x = map(int, input().split())
-        # print(f'(x,y): {x} {y}')
+        print(f'(x,y): {x} {y}')
         matrix[x][y] = 1
 
     #배추밭 순회
