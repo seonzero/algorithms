@@ -8,7 +8,8 @@
 - [ ] 스택 250919(2개)
 - [ ] 큐 250926 
 - [ ] 덱 250926 
-- [ ] 스택의 활용 
+- [ ] 스택의 활용
+    
 - [ ] BFS 251002 https://www.acmicpc.net/workbook/view/7313
-- [ ] 재귀 
-- [ ] 백트래킹 
+- [ ] 재귀 https://www.acmicpc.net/workbook/view/7314
+- [ ] 백트래킹 https://www.acmicpc.net/workbook/view/7315
