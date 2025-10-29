@@ -44,5 +44,6 @@ for t in range(tc):
         cnt += 1
         DFS(i, visited, edges)
         # print('@@')
-    
-    print(cnt)
+
+
+print(cnt)

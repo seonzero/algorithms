@@ -7,7 +7,7 @@ def DFS(near, visited, edges):
     
     #방문 여부 등록
     visited.add(near)
-    # print(f'visited: {visited}')
+    print(f'visited: {visited}')
 
     #인접리스트 정보 받기
     adj_list = edges[near]
@@ -31,7 +31,7 @@ for t in range(tc):
         edges[start].append(end)
         edges[end].append(start)
 
-    # print(f'edge: {edges}')
+    print(f'edge: {edges}')
 
     #방문정보 저장
     visited = set()
@@ -44,5 +44,6 @@ for t in range(tc):
         cnt += 1
         DFS(i, visited, edges)
         # print('@@')
-    
-    print(cnt)
+
+
+print(cnt)
