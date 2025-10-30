@@ -1,3 +1,6 @@
+
+
+
 tc = int(input())
 
 for t in range(1, tc+1):
@@ -41,4 +44,4 @@ for t in range(1, tc+1):
         DFS(idx+1, h_sum) 
 
     DFS(0,0)
-    print(f'#{t} {min_height-b}')
+    print(f'#{tc} {min_height}')

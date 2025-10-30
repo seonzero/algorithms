@@ -1,3 +1,6 @@
+
+
+
 tc = int(input())
 
 for t in range(1, tc+1):
@@ -17,7 +20,7 @@ for t in range(1, tc+1):
     2. 누적해서 가져가고 싶은 값 
     - 우리가 포함한 점원들의 키의 합
     '''
-    
+    DFS(0,0)
     #idx: 현재 탐색중인 직원의 인덱스
     #h_sum: 내가 선택해온 직원들의 키의 합
     def DFS(idx, h_sum):
@@ -40,5 +43,5 @@ for t in range(1, tc+1):
         #idx에 해당하는 직원을 선택하지 않은 경우
         DFS(idx+1, h_sum) 
 
-    DFS(0,0)
-    print(f'#{t} {min_height-b}')
+
+    print(f'#{tc} {min_height}')
