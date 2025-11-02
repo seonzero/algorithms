@@ -38,25 +38,26 @@ for t in range(tc):
             if i==s:
                 root = i
                 found = True
-                print(root)
+                # print(f'root: {root}')
                 break
         if found:
             break
 
     
-
+    cnt = 0
     #3. 서브트리 count
-    def count_child(r, cnt): #3번받으면
-        print(f'{r}: {graph[r]}')
+    def count_child(r): #3번받으면
+        global cnt
         cnt+=1
-        print(f'cnt: {cnt}')
+        # print(f'now: {r}, child: {graph[r]}, cnt: {cnt}')
 
         
         if graph[r]: #[5,6]
-            cnt+=1
             for i in graph[r]:
-                count_child(i, cnt)
+                count_child(i) #5를 넣어주고 - 6을 넣어주고
         else:
             pass
-    
-    count_child(root, cnt=0)
+
+    cnt = 0
+    count_child(root)
+    print(f'#{t+1} {root} {cnt}')
