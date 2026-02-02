@@ -1,0 +1,13 @@
+title: algorithms
+description: 문제풀이
+remote_theme: just-the-docs/just-the-docs
+plugins:
+- jekyll-remote-theme
+url: https://seonzero.github.io
+baseurl: /algorithms
+aux_links:
+  algorithms on GitHub: https://github.com/seonzero/algorithms
+color_scheme: eggit_custom
+permalink: pretty
+search_enabled: true
+heading_anchors: true
