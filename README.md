@@ -1,6 +1,6 @@
 # algorithms
-문제풀이
-- swea: https://swexpertacademy.com/main/main.do
+삼성 SW 역량 테스트 기출 문제: 
+https://www.acmicpc.net/workbook/view/1152
 
 ## 바킹독
 링크: https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md
